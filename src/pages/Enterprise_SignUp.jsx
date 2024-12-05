@@ -7,7 +7,7 @@ import line from "../assets/line.svg";
 
 const Enterprise_SignUp = () => {
   return (
-    <div className="flex justify-between max-w-[1920px] max-h-[1080px] h-full ">
+    <div className="flex justify-between max-w-[1920px] max-h-[795px] h-full overflow-clip">
       {/* Left Section */}
       <div className="relative text-black font-inter font-normal overflow-hidden">
         {/* Background Image and Gradient Overlay */}
@@ -20,7 +20,7 @@ const Enterprise_SignUp = () => {
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-[#78206E]/60 z-10"></div>
 
           {/* Centered Text at the Bottom */}
-          <p className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 w-[491px] text-left h-[261px] font-inter text-[60px] leading-[70px] text-white">
+          <p className="absolute bottom-8 left-1/2 mb-10 -ml-5 transform -translate-x-1/2 z-20 w-[491px] text-left h-[261px] font-inter text-[60px] leading-[70px] text-white">
             When Organisations need a helping hand!
           </p>
         </div>
@@ -47,7 +47,7 @@ const Enterprise_SignUp = () => {
         </div>
 
         {/* Sign-up Content Section */}
-        <div className="mt-[30px] flex flex-col items-start font-inter ml-10 w-[694px] h-[716px]">
+        <div className="mt-10 flex flex-col items-start font-inter ml-5  w-[694px] h-[716px]">
           <h2 className="text-[#831B61] w-[248px] h-[21px] text-[29px] mb-10 mt-10">
             Sign up to Cravta
           </h2>
@@ -60,7 +60,7 @@ const Enterprise_SignUp = () => {
               <p className="text-[#8F316F]">Sign up with Apple</p>
             </button>
           </div>
-          <div className="mt-10 w-[573px] h-[525px]">
+          <div className="mt-5 w-[573px] h-[525px]">
             <img src={line} alt="" className="mb-5" />
             <p className="text-[#71778F] text-[15px] mb-4">
               Or sign up using your email address
@@ -179,7 +179,7 @@ const Enterprise_SignUp = () => {
             </button>
           </div>
         </div>
-        <div className="absolute -bottom-20 right-0">
+        <div className="absolute -bottom-20 -right-5 ">
           <img
             src={Image}
             alt="Bottom-right decorative"
