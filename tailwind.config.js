@@ -8,7 +8,11 @@ export default {
     extend: {
       fontFamily: {
         inter: ['Inter', 'sans-serif'], // Add Inter as a separate font
+        helvetica: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
 
+      },
+      colors: {
+        'custom-purple': '#78206E',
       },
     },
   },

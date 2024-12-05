@@ -3,7 +3,7 @@ import Logo from "../assets/logo.svg";
 import Image from "../assets/design.svg";
 import Button from "../components/Button";
 
-const OnboardingScreen = () => {
+const Onboarding = () => {
   return (
     <div className="max-w-[1920] w-full max-h-[1080px] h-full text-black font-inter font-normal overflow-hidden">
       {/* Top Section with Logo */}
@@ -42,4 +42,4 @@ const OnboardingScreen = () => {
   );
 };
 
-export default OnboardingScreen;
+export default Onboarding;
